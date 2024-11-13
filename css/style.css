@@ -175,6 +175,17 @@ header{
     color: #e62222;
    }
 
+
+   /*--banner--*/
+   .banner{
+    margin-bottom: 30px;
+    display: none;
+   }
+
+   .banner img{
+    width: 100%;
+   }
+
    
 
  
@@ -225,6 +236,10 @@ header{
 
      .social-link li> a {
         padding: 12px 52px;
+      }
+
+      .banner{
+        display: block;
       }
 }
 
