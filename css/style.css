@@ -276,6 +276,14 @@ header{
       .banner{
         display: block;
       }
+
+      article img{
+         float: left;
+      }
+
+      article p{
+         font-size: 16px;
+       }
 }
 
 /* desktop */
