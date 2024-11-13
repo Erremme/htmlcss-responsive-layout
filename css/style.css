@@ -14,6 +14,7 @@
 ---------------*/
 :root{
    --main_padding:15px 0 0 0;
+   --secondary_padding:0 0 16px 0;
    --text-weight:700;
 }
 
@@ -81,6 +82,10 @@ header{
     background-color:#fff;
     padding: 10px 16px;
     text-align: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 10;
 }
 
 /*-----------
@@ -106,6 +111,7 @@ header{
     background-color: #fff;
     padding-bottom: 16px;
     padding-left:20px;
+    padding-right: 20px;
 }
 
 .col-details ul{
@@ -133,18 +139,111 @@ header{
 /* tablet */
 
 @media screen and (min-width:768px) {
+
+/*--commons----*/
+
+  .container{
+    padding: 0 60px;
+  }
+
+  /*--header----*/
     header{
         text-align: left;
     }
 
-    
+  /*--main----*/
+
+    .title-recipe span{
+        display:inline-block;
+     }
+     
+     .col-details ul{
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        padding: 20px 0;
+     }
+
+     .col-details ul> li {
+        padding-right: 54px;
+        padding-top: 40px ;
+     }
+     
+     .col-details ul> li:nth-child(4) {
+        padding-right: 42px;
+     }
+
 }
 
 /* desktop */
 
 @media screen and (min-width:992px) {
-    
+
+    /* typography */
+
+    h1{
+        font-size: 38px;
+    }
+
+    h2{
+        
+        font-size: 40px;
+        padding:var(--main_padding);
+    }
+     
+    h4{
+        font-size: 16px;
+        padding: 24px 0;
+    }
+
+    .col-details ul>li{
+        font-size: 12px;
+    }
+
+    /*----commons-------*/
+  
+
+    .container{
+    padding: 0 100px;
+ }
+
+ .row{
+    display: flex;
+    flex-direction: row;
+ }
+
+    /*--main----*/
+    #recipe .col-video {
+        width: 70%;
+        
 }
+    
+#recipe .col-details{
+    width: 30%;
+    padding-top: 0;
+    margin-top: 16px;     
+ 
+  }
 
+   .col-details ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+    
+  
+ }
 
+ .col-details ul> li {
+    padding-right:0px;
+    padding-top: 10px;
+ }
+
+ .col-details ul>li:nth-child(1){
+     padding: 0;
+ }
+
+    
+
+     }
 
