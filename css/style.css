@@ -26,22 +26,58 @@
 ---------------*/
 body{
     font-family: "Montserrat", sans-serif;
+    background-color:#f6f5f3;
+}
+
+h1{
+    font-family: "Nerko One", cursive;
+    text-shadow: 2px 2px 4px grey;
+    color: #ff9614;
+    font-size: 36px;
 }
 
 /*-----------
    COMMONS
 ---------------*/
-
+ .container{
+    max-width: 1200px;
+    margin: 0 auto;
+ }
 
 /*-----------
    HEADER
 ---------------*/
+header{
+    background-color:#fff;
+    padding: 10px 16px;
+    text-align: center;
+}
 
 /*-----------
    MAIN
 ---------------*/
 
 /*-----------
-   FOOTE
+   FOOTER
 ---------------*/
+
+/*------------------------------------------
+   RESPONSIVE                      DESIGN
+---------------------------------------------*/
+
+/* tablet */
+
+@media screen and (min-width:768px) {
+    header{
+        text-align: left;
+    }
+}
+
+/* desktop */
+
+@media screen and (min-width:992px) {
+    
+}
+
+
 
