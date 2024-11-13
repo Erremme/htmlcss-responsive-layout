@@ -186,7 +186,42 @@ header{
     width: 100%;
    }
 
+ /*-----section presentation----*/
+
+ .title-presentation>h2{
+   color:black;
+   font-size: 24px;
+   font-weight: 500;
+ }
+
+ .title-presentation>hr{
+   background-color: #ff9614;
+   height: 3px;
+   width: 10%;
+   margin-top:10px;
+   margin-bottom: 30px;
+
+ }
+
+ article{
+   text-align: center;
+   padding: 0 10px;
+   padding-bottom: 50px;
+ }
+
+ article p{
+   text-align: left;
+   font-size: 14px;
+ }
+ 
+ article img{
+   height:200px;
+   max-width: 100%;
+   margin: 10px;
    
+ }
+
+ 
 
  
 /*-----------
