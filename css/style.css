@@ -233,9 +233,7 @@ header{
 ---------------*/
 
 footer{
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
+   text-align: center;
    background-color: #7c69a4;
    padding: 28px 15px;
    color: #fff;
@@ -243,13 +241,15 @@ footer{
 
 .address p{
    font-size: 12px;
-   padding-top: 5px;
+   padding-top: 10px;
+   padding-bottom: 10px;
 }
 
 .link-footer li>a{
    font-size: 12px;
    color: inherit;
    cursor: pointer;
+   padding-right: 10px;
 }
 
 footer a:hover{
@@ -314,7 +314,10 @@ footer a:hover{
       article p{
          font-size: 16px;
        }
-}
+
+       
+       }
+
 
 /* desktop */
 
@@ -393,9 +396,17 @@ footer a:hover{
 
  }
 
+ /*---footer---*/
 
-
-    
+ footer{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
 
      }
+
+     .address{
+      text-align: left;
+     }
+}
 
