@@ -12,6 +12,7 @@
 /*-----------
    CUSTOM PROPRIETIS
 ---------------*/
+
 :root{
    --main_padding:15px 0 0 0;
    --secondary_padding:0 0 16px 0;
@@ -19,15 +20,9 @@
 }
 
 /*-----------
-   DEBUG
----------------*/
-
-
-
-
-/*-----------
    TYPOGRAPHY
 ---------------*/
+
 body{
     font-family: "Montserrat", sans-serif;
     background-color:#f6f5f3;
@@ -57,11 +52,10 @@ h4{
     font-size: 18px;
 }
 
-
-
 /*-----------
    COMMONS
 ---------------*/
+
  .container{
     max-width: 1200px;
     margin: 0 auto;
@@ -81,11 +75,10 @@ h4{
    background-color: #009eff;
  }
 
- 
-
 /*-----------
    HEADER
 ---------------*/
+
 header{
     background-color:#fff;
     padding: 10px 16px;
@@ -121,8 +114,7 @@ header{
     padding-left:20px;
     padding-right: 20px;
 }
-
-    
+  
 .col-details li{
     padding: var(--main_padding);
 }
@@ -141,8 +133,6 @@ header{
     display: flex;
     justify-content: space-between;
 }
-
-
 
  .social-link li> a {
     padding: 10px 20px;
@@ -178,7 +168,6 @@ header{
    .social-link li:nth-child(5) i{
     color: #e62222;
    }
-
 
    /*--banner--*/
    .banner{
@@ -222,10 +211,7 @@ header{
    height:200px;
    max-width: 100%;
    margin: 10px;
-   
  }
-
- 
 
  
 /*-----------
@@ -256,8 +242,6 @@ footer a:hover{
    background-color: #009eff;
 }
 
-
-
 /*------------------------------------------
    RESPONSIVE                      DESIGN
 ---------------------------------------------*/
@@ -273,6 +257,7 @@ footer a:hover{
   }
 
   /*--header----*/
+
     header{
         text-align: left;
     }
@@ -314,10 +299,7 @@ footer a:hover{
       article p{
          font-size: 16px;
        }
-
-       
        }
-
 
 /* desktop */
 
@@ -346,67 +328,78 @@ footer a:hover{
 
     /*----commons-------*/
   
-
     .container{
     padding: 0 100px;
- }
+    }
 
- .row{
+   .row{
     display: flex;
     flex-direction: row;
- }
+    }
 
     /*--main----*/
     #recipe .col-video {
         width: 70%;
         
-}
+    }
     
-#recipe .col-details{
+    #recipe .col-details{
     width: 30%;
     padding-top: 0;
     margin-top: 16px;     
  
-  }
+    }
 
-   .col-details ul{
+    .col-details ul{
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 0;
-    
   
- }
+    }
 
- .col-details ul> li {
+    .col-details ul> li {
     padding-right:0px;
     padding-top: 10px;
- }
+    }
 
- .col-details ul>li:nth-child(1){
+    .col-details ul>li:nth-child(1){
      padding: 0;
- }
+    }
 
- .social-link li> a {
+    .social-link li> a {
     padding: 10px 28px;
-  }
+    }
 
- .social-link a> span{
+   .social-link a> span{
     display:inline;
 
- }
+    }
 
- /*---footer---*/
+    /*---footer---*/
 
- footer{
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
+    footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
      }
 
      .address{
       text-align: left;
      }
-}
+    }
+
+    /*-----smarphote big---*/
+
+    @media screen and (min-width:576px) {
+      article img{
+         float: left;
+      }
+       
+      .social-link li> a {
+         padding: 12px 42px;
+       }
+
+    }
 
